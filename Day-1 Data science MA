@@ -1,0 +1,321 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "2bc3eac9-c1a7-4016-98ed-0c1c3ff99979",
+   "metadata": {},
+   "source": [
+    "### Numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "7ecb862b-bd80-4ed6-8b83-9069e4f18901",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-2\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(1-3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "c1bd2e44-7791-4fb9-a66b-f1b8e298df77",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1+3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "48b9cd59-57c3-4b2e-afa7-9f115e751ba6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "f24b1422-a52a-447d-af49-d9235a85cdb7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "cdad44a1-6fa1-4054-b3e6-d23eeec66176",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello  world\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('hello  world')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "babfefe1-241f-4415-9894-4a9c02c5a3e9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "complex"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(1+2j)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "d3710462-dbd6-4d2d-8cca-82a18c93e2aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(2.5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "46048ea7-5108-462c-bd2a-38eba892ed97",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "##boolean"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "38c08f8d-a53a-48d1-858d-00ab098b83a2",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "6df4bb49-63d0-4382-b9ec-69c991d7f448",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "3b4dc45f-fa62-4aea-882d-9b8bf272de76",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bool(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "60f42854-a9b3-4a9b-bdf7-cc0fe3e88a6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "bool(0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "7484d68d-e2d8-44d8-8a1c-380e50187d16",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'false' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[39], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;28mtype\u001b[39m (\u001b[38;5;129;01mnot\u001b[39;00m \u001b[43mfalse\u001b[49m)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'false' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "type (not false)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "e9e456c8-f088-43ea-89b6-b25d53910dcc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "123"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(123)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "3fb63d14-7ce6-440d-bd71-ee508c311834",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'11'"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"1\"+\"1\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "ad03ed29-d2d0-484b-9ef4-a527d9aaf2ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"1\"*100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "278927cb-b5b1-4178-af63-0f1312d4819e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  },
+  "toc-autonumbering": true,
+  "toc-showmarkdowntxt": true
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
